@@ -1,0 +1,232 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: #dcd9d9f5;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#header {
+  text-align: center;
+  width: 100%;
+  margin-bottom: -1rem;
+}
+
+#detail {
+  height: 100%;
+}
+
+.sub-header,
+h3 {
+  text-align: center;
+}
+
+#season-navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-width: 0px 0.2rem 0.2rem 0;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+#season-navbar a {
+  flex: 1;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0.4rem;
+  border-style: solid;
+  border-width: 0.2rem 0 0 0.2rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 200px) {
+  .season-navlink {
+    white-space: normal;
+  }
+}
+
+#season-content {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+#season-content #sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0.5rem 0 0.5rem;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 0 0.1rem 0 0;
+}
+
+#season-content #sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#season-content #content {
+  flex: 2;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  padding: 1rem;
+}
+
+#season-list {
+  width: 20%;
+  margin: auto;
+  border-style: solid;
+  border-radius: 5%;
+  min-width: 150px;
+}
+
+#season-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 0.1rem 0 0 0;
+}
+
+#season-list li a {
+  color: inherit;
+  background-color: #b8b8b8f5;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  border-style: solid;
+  border-width: 0 0 0.1rem 0;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+#season-list li a:hover {
+  background: #e3e3e3;
+  /* font-size: 1.4em;
+  padding: .3rem 0 .3rem 0; */
+}
+
+textarea,
+input,
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  box-shadow:
+    0 0px 1px hsla(0, 0%, 0%, 0.2),
+    0 1px 2px hsla(0, 0%, 0%, 0.2);
+  background-color: white;
+  line-height: 1.5;
+  margin: 0;
+}
+
+textarea:hover,
+input:hover,
+button:hover {
+  box-shadow:
+    0 0px 1px hsla(0, 0%, 0%, 0.6),
+    0 1px 2px hsla(0, 0%, 0%, 0.2);
+}
+
+button:active {
+  box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.4);
+  transform: translateY(1px);
+}
+
+#new-show-year-button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* 
+
+
+
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
